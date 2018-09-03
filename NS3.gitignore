@@ -1,0 +1,6 @@
+# PCAP Tracing
+*.pcap
+
+# NetAnim
+*.xml
+

@@ -1,0 +1,10 @@
+prefix=/usr/local
+libdir=/usr/local/lib
+includedir=/usr/local/include/ns3.22
+
+Name: libns3-drive-recorder
+Description: ns-3 module ns3-drive-recorder
+Version: 3.22
+Libs: -L${libdir} -Wl,-Bdynamic -lns3.22-drive-recorder-debug
+Cflags: -I${includedir}
+Requires: libns3.22-core-debug libns3.22-internet-debug libns3.22-mobility-debug
